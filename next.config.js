@@ -6,7 +6,7 @@ const nextConfig = {
   },
   images: { unoptimized: true },
   experimental: {
-    serverActions: true
+    serverActions: true // (mantido apenas se estiver usando)
   }
 };
 
