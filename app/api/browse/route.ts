@@ -1,3 +1,7 @@
+// app/api/browse/route.ts
+
+export const dynamic = 'force-dynamic';
+
 import { NextRequest, NextResponse } from 'next/server';
 import { simulateBrowsing } from '@/lib/utils';
 
